@@ -51,12 +51,15 @@ typedef struct{
     char password[6];
 } User;
 
-```struct Question {
+```
+```c
+struct Question {
     char question[500];
     char options[MAX_OPTIONS][50];
     char correctOption;
-};```
-
+   };
+ ```
+ 
 
 
 ## 🛠️ Functions Overview
